@@ -1,0 +1,58 @@
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background-color:black;
+	opacity:0.5;
+	height: 120px;
+}
+.logo h1{
+	color: #fff;
+	text-transform: capitalize;
+	margin-top: 40px;
+	font-size: 42px;
+	cursor: pointer;
+}
+
+.navsec ul{
+	margin-top: 50px;
+}
+.navsec ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+.navsec ul li a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+.navsec p{
+	display: inline-block;
+	color: #fff;
+	margin-left: 30px;
+	font-size: 21px;
+}
+.navsec button{
+	color: #fff;
+background-color: cadetblue;
+margin-left: 110px;
+text-transform: uppercase;
+border: none;
+border-radius: 40px;
+}
+.navsec ul li a:hover{
+	
+	border-spacing: 3px;
+	border-bottom: 3px solid darkred;
+	transition: all 0.9s;
+}
+.navsec ul li a:active{
+	color: green;
+	
+}
+

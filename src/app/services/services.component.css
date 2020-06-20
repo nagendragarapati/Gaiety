@@ -1,0 +1,56 @@
+.service{
+    background: url(../../assets/images/why.jpg) no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.rigid{
+    padding-top: 100px;
+}
+
+.why{
+height: 580px;
+}
+.choose{
+    height: 150px;
+}
+.choose p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.choose h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.fast{
+    height: 420px;
+    margin-right: 50px;
+    margin-left: 40px;
+
+}
+.fast img{
+    height: 200px;
+    width: 320px;
+}
+.fast h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.fast p{
+    text-align: center;
+}
+
+
+.members img{
+    height: 200px;
+    border-radius: 290px;
+    margin-left: 20px;
+}
+.members h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.members p{
+    text-align: center;
+    text-transform: capitalize;
+}

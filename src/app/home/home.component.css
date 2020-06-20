@@ -1,0 +1,109 @@
+.banner{
+	height:790px;
+	background: url(../../assets/images/destination_7.jpg) no-repeat;
+	background-size:cover;
+	position: absolute;
+}
+.away{
+	margin-top: 190px;
+}
+.away h1{
+	
+	font-size: 80px;
+	text-transform: none;
+	color: #fff;
+	text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.destination{
+	height:390px;
+	background: url(../../assets/images/intro.png) no-repeat;
+	background-size:cover;
+	position: relative;
+	top: 690px;
+}
+.pool{	
+	height: 120px;
+	margin-top: 240px;
+}
+.pool img{
+	height: 80px;
+	width: 84px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 18px;
+}
+.paras{
+	margin-top: 270px;
+}
+
+.paras h3{
+	font-size: 20px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.paras p{
+	
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+.places{
+	height:1000px;
+	margin-top: 740px;
+	background-color:#fff;
+}
+.country img{    height: 250px;
+    width: 350px;
+}
+
+.country h3{
+	font-size: 20px;
+	color: darkred;
+}
+.country h1{
+	font-size: 30px;
+}
+.mid p{
+	text-align: center;
+}
+.mid h2{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.mid{
+	height: 140px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.newspost{
+	height: 750px;
+}
+
+
+.total{
+	margin-bottom: 60px;
+}
+
+.one img{
+	height: 160px;
+	width: 270px;
+}
+
+.two h1{
+	line-height: 18px;
+}
+.two p{
+	font-size: 15px;
+	display: inline-block;
+}
+.two small{
+	font-size: 12px;
+}
+.two h5{
+	font-size: 17px;
+	width: 110%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/

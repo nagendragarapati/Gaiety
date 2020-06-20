@@ -1,0 +1,77 @@
+.footer{
+	height:590px;
+	background:url(../../assets/images/footer_1.jpg) no-repeat;
+	background-size:cover;
+}
+.subscribe h1{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 80px;
+}
+.subscribe p{
+	color: #fff;
+	text-align: center;
+}
+.email{
+	margin-left: 80px;
+	
+}
+.email input[type=text]{
+	padding: 10px 25px 10px 24px;
+	background-color: aliceblue;
+	border: none;
+	opacity: 0.5;
+	color: black;
+	text-transform: capitalize;
+}
+.email input[type=email]{
+	padding: 10px 355px 10px 27px;
+	background-color: aliceblue;
+	border: none;
+	opacity: 0.5;
+	color: black;
+	text-transform: capitalize;
+	margin-left: 20px;
+}
+.email button{
+	padding: 10px 25px 10px 24px;
+	background-color: aliceblue;
+	border: none;
+	opacity: 0.5;
+	color: black;
+	text-transform: capitalize;
+	margin-left: 40px;
+	border-radius: 19px;
+	text-transform: uppercase;
+	color: maroon;
+}
+.three{
+	margin-top: 50px;
+}
+.three img{
+	height: 100px;
+	margin-left: 120px;;
+}
+.three h1{
+	
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	margin-top: 14px;
+}
+.three p{
+	color: #fff;
+	text-align: center;
+}
+.three h5{
+	color: #fff;
+	text-align: center;
+}
+
+.last p{
+	text-align:center;
+	color:#fff;
+	margin-top: 60px;
+}

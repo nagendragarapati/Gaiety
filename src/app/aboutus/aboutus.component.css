@@ -1,0 +1,74 @@
+.first{
+    background: url(../../assets/images/about.jpg) no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.fixed{
+    padding-top: 100px;
+}
+
+.second{
+    height: 850px;
+
+}
+.simply{
+    height: 150px;
+    margin-bottom: 60px;
+}
+.simply p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+
+}
+.simply h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 200px;
+}
+.few{height: 470px;}
+.few p{
+font-size: 18px;
+
+}
+.few h5{
+    font-size: 16px;
+    line-height: 2;
+}
+.few button{
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 50px;}
+
+.style img{
+    height: 470px;
+    width: 540px;
+}
+
+.third{
+    height: 260px;
+    
+}
+.middle{
+    margin-left: 80px;
+
+
+}
+.middle img{
+    height: 100px;
+    margin-left: 32px;
+}
+.middle h1{
+    text-align: center;
+}
+.middle p{
+    text-align: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
