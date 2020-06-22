@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const scrollFunction:any;
 
 @Component({
   selector: 'app-header',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  onscroll = function() {scrollFunction()};
 
   constructor() { }
 
