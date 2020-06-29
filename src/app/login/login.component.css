@@ -11,6 +11,8 @@ background-color: darkseagreen;
 
 margin-left: 400px;
 padding-top: 40px;
+background: url(../../assets/images/login-back.jpg) no-repeat;
+background-size: cover;
 }
 .loginforms form input[type=email]{
 margin:2px 3px;
