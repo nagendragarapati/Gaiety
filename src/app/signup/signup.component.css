@@ -1,52 +1,52 @@
 .signupforms {
-    height: 600px;
+    height: 750px;
     padding-top: 145px;
 }
 .signupforms form{
 	border:2px solid;
 	width:36%;
-	height:424px;
-	background-color: blueviolet;
+	height:550px;
+	background-color: blueviolet ;
 	border-radius: 18px 144px;
 	margin-left: 400px;
 	padding-top: 30px;
 }
 .signupforms form input[type=text]{
-	margin:2px 3px;
-	margin:19px 119px;
-	padding: 6px 61px;
-	margin-top: 12px;
-	margin-bottom: 14px;
-	
-	border: none;
-	border-radius: 20px;
-	text-align: center;
+	margin: 32px 153px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 240px;
 }
 .signupforms form input[type=tel]{
-	margin:19px 119px;
-	padding: 6px 61px;
+	margin: 32px 153px;
 	margin-top: 20px;
 	margin-bottom: 14px;
 	border-radius: 20px;
 	border: none;
 	text-align: center;
+	width: 240px;
+
 }
 .signupforms form input[type=email]{
-	margin:2px 3px;
-	padding: 6px 61px;
-	margin-left: 119px;
+	margin-left: 153px;
 	margin-top: 13px;
 	border-radius: 20px;
 	border: none;
 	text-align: center;
+	width: 240px;
+
 }
 .signupforms form input[type=password]{
-	margin:2px 3px;
-	margin: 22px 119px;
+	margin: 22px 153px;
 	padding: 6px 61px;
 	border-radius: 20px;
 	border: none;
 	text-align: center;
+	width: 240px;
+
 }
 .signupforms form h2{
 	font-size: 25px;
@@ -66,12 +66,8 @@
 transition: all 0.3s;
 
 }
-.signupforms form button:hover{
-	padding: 5px 25px;
-	background-color: green;
-	color: #fff;
-	border: none;
-}
+
+
 .signupforms form button:active{
 	box-shadow:0px 0px 0px #0525f5;
 	border: none;
@@ -79,4 +75,12 @@ transition: all 0.3s;
 .signupforms form p{
 	margin-left: 250px;
 	color: #fff;
+}
+small{
+
+	margin-left: 150px;
+}
+.validate{
+	margin-left: 150px;
+
 }

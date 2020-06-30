@@ -1,14 +1,64 @@
 <div class="signupforms">
-    <form [formGroup]="Signupform" (ngSubmit)="Signup(Signupform.value)">
-    <h2>signup</h2>
-    <input [class.is-invalid]="Signupform.get('FirstName').touched && Signupform.get('FirstName').invalid " type="text" placeholder="FirstName" formControlName="FirstName" name="FirstName">
-    <input  type="text" name="" value="" placeholder="LastName" formControlName="LastName" name="LastName">
-    <input  type="email" name="" value="" placeholder="email" formControlName="email" name="email">
-    <input type="password" name="" value="" placeholder="password" formControlName="password" name="password">
+    <form [formGroup]="Signupform" (ngSubmit)="Signup(Signupform.value)" class="form-group">
+    <h2><b>signup</b></h2>
+
+    <input [class.is-invalid]="Signupform.get('UserName').touched && Signupform.get('UserName').invalid" type="text"
+    placeholder="UserName" formControlName="UserName" name="UserName" class="form-control">
+
+    <div *ngIf="Signupform.get('UserName').touched && Signupform.get('UserName').invalid">
+       <small *ngIf="Signupform.get('UserName').errors['required']"  
+       class="text-danger">UserName is required</small>
+
+       <small *ngIf="Signupform.get('UserName').errors['minlength']"  
+       class="text-danger">UserName must be atleast 3 charecters</small>
+   </div>
+    
+
+    <input [class.is-invalid]="Signupform.get('FirstName').touched && Signupform.get('FirstName').invalid" type="text"
+     placeholder="FirstName" formControlName="FirstName" name="FirstName" class="form-control">
+
+     <div *ngIf="Signupform.get('FirstName').touched && Signupform.get('FirstName').invalid">
+        <small *ngIf="Signupform.get('FirstName').errors['required']"  
+        class="text-danger">FirstName is requied</small>
+
+        <small *ngIf="Signupform.get('FirstName').errors['minlength']"  
+        class="text-danger">FirstName must be atleast 3 charecters</small>
+    </div>
+     
+
+
+    <input [class.is-invalid]="Signupform.get('LastName').touched && Signupform.get('LastName').invalid" type="text"
+    placeholder="LastName" formControlName="LastName" name="LastName" class="form-control">
+
+    <div *ngIf="Signupform.get('LastName').touched && Signupform.get('LastName').invalid">
+       <small *ngIf="Signupform.get('LastName').errors['required']"  
+       class="text-danger">LastName is required</small>
+
+       <small *ngIf="Signupform.get('LastName').errors['minlength']"  
+       class="text-danger">LastName must be atleast 3 charecters</small>
+   </div>
+    
+   <input type="email" name="" value="" placeholder="Email" formControlName="email" name="email"
+   class="form-control" [class.is-invalid]="Signupform.get('email').invalid && Signupform.get('email').touched ">
+   <small [class.d-none]="Signupform.get('email').valid || Signupform.get('email').untouched " class="text-danger">Email is requied</small>
+
+   <input [class.is-invalid]="Signupform.get('Password').touched && Signupform.get('Password').invalid" type="Password"
+   placeholder="Password" formControlName="Password" name="Password" class="form-control">
+
+   <div *ngIf="Signupform.get('Password').touched && Signupform.get('Password').invalid">
+      <small *ngIf="Signupform.get('Password').errors['required']"  
+      class="text-danger">Password is required</small>
+
+      <small *ngIf="Signupform.get('Password').errors['minlength']"  
+      class="text-danger">Password must be atleast 6 charecters</small>
+  </div>
     <p>Already have accont?<a routerLink="/Login">Login</a></p>
 
-    <button>signup</button>
+    <button class="btn btn-success" [disabled]="!Signupform.valid">signup</button>
     </form>
     </div>
+
+
+    
     
     

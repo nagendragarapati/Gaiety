@@ -67,11 +67,12 @@
 .country{
 	width:350px;
 	height:280px;
-	background:#fff;
+	background:grey;
 	margin-right:20px;
 	margin-top:40px;
 	position:relative;
 	margin-left: 40px;
+	border-radius: 10px;
 	}
 	
 .country .imgbox{
@@ -111,12 +112,12 @@
 	
 	position: absolute;
 	top: 60px;
-	transform: scaleY(0);
-	transition: transform 1s;
+	transform: scaleX(0);
+	transition: transform 1.5s;
 }
 
 .country:hover .content{
-	transform: scaleY(1);
+	transform: scaleX(1);
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
 .newspost{

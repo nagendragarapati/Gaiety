@@ -4,30 +4,36 @@
 
 }
 .loginforms form{
-border:2px solid #fff;
-width:36%;
+width:34%;
 height:364px;
-background-color: darkseagreen;
-
 margin-left: 400px;
 padding-top: 40px;
+background: url(../../assets/images/login-back.jpg) no-repeat;
+background-size: cover;
+border-radius: 20px;
 }
 .loginforms form input[type=email]{
 margin:2px 3px;
-padding: 6px 61px;
-margin-left: 119px;
-margin-top: 13px;
+margin-top: 40px;
 border-radius: 20px;
 border: none;
 text-align: center;
+width: 290px;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+small{
+
+margin-left: 130px;
+
 }
 .loginforms form input[type=password]{
-margin:2px 3px;
-margin: 22px 119px;
-padding: 6px 61px;
 border-radius: 20px;
 border: none;
 text-align: center;
+width: 290px;
+margin-left: 100px;
+    margin-bottom: 10px;
 }
 .loginforms form h2{
 font-size: 25px;
@@ -44,19 +50,15 @@ box-shadow: 0px 5px 0px #77a4c3;
 transition: all 0.3s;
 
 }
-.loginforms form button:hover{
-padding: 5px 25px;
-background-color: green;
-	color:#fff;
 
 
-}
+
 .loginforms form p{  
 font-size: 17px;
 text-transform: capitalize;
 margin-left: 200px;
 }
 .loginforms form button:active{
-	box-shadow:0px 0px 0px #0525f5;
+	box-shadow:0px 0px 0px #0d2cf5;
 }	
 
