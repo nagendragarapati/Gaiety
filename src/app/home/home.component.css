@@ -1,17 +1,17 @@
 .banner{
-	height:790px;
-	background: url(../../assets/images/destination_7.jpg) no-repeat;
+	height:560px;
+	background: url(../../assets/images/banner1.jpg) no-repeat;
 	background-size:cover;
 	position: absolute;
 }
 .away{
-	margin-top: 190px;
+	margin-top: 150px;
 }
 .away h1{
 	
-	font-size: 80px;
+	font-size: 60px;
 	text-transform: none;
-	color: #fff;
+	color: maroon;
 	text-align: center;
 }
 
@@ -23,7 +23,7 @@
 	background: url(../../assets/images/intro.png) no-repeat;
 	background-size:cover;
 	position: relative;
-	top: 690px;
+	top: 450px;
 }
 .pool{	
 	height: 120px;

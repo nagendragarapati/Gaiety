@@ -50,6 +50,11 @@ box-shadow: 0px 5px 0px #77a4c3;
 transition: all 0.3s;
 
 }
+.loginforms form button:active{
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3 ;
+    color: #fff;
+}
 
 
 

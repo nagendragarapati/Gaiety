@@ -1,0 +1,67 @@
+.profile{
+    height: 420px;
+    width: 80%;
+    background-color: #fff;
+    float: left;
+}
+.picture{
+    background-color: #fff;
+    height: 420px;
+    width: 300px;
+    float: left;
+}
+.pic{
+    background-color: blanchedalmond;
+}
+.pic i{
+    color: gray;
+    margin-top: 120px;
+    margin-left: 30px;
+    position: absolute;
+}
+.cam i{
+    position: relative;
+    top: 270px;
+    left: 180px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.cam ul{
+    margin-top: 267px;
+    position: relative;
+    margin-left: 90px;
+    display: none;
+}
+.cam ul li{
+    list-style: none;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+    width: 160px;
+    margin-bottom: 4px;
+    padding: 0px 0px 4px 0px;
+    border-bottom: 1px solid;
+
+}
+.cam ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.cam:hover ul{
+    display: block;
+}
+.details{
+    float: left;
+}
+.details input[type=text]{
+    display: block;
+}
+.details input[type=tel]{
+    display: block;
+}
+.details input[type=email]{
+    display: block;
+
+}
+

@@ -7,6 +7,9 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { MyaccountComponent } from './myaccount/myaccount.component';
+import { ProfileComponent } from './profile/profile.component';
+
 
 
 
@@ -22,6 +25,13 @@ const routes: Routes = [
   {path:'Login', component:LoginComponent},
   {path:'Signup', component:SignupComponent},
   {path:'404', component: NotfoundComponent},
+  {path:'Myaccont', component:MyaccountComponent,
+  children:[
+    {path:'Profile', component:ProfileComponent},
+    {path:'', component:ProfileComponent}
+    
+  ]
+},
   {path:'**', redirectTo:'/404'},
 
 
