@@ -9,6 +9,9 @@ import { SignupComponent } from './signup/signup.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TripsComponent } from './trips/trips.component';
+import { BookingsComponent } from './bookings/bookings.component';
+
 
 
 
@@ -23,16 +26,21 @@ const routes: Routes = [
   {path:'Services', component:ServicesComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
+  {path:'Myaccount', component:MyaccountComponent,
+  children:[
+
+    {path:'Profile', component:ProfileComponent},
+    {path:"", redirectTo:'Profile', pathMatch:'full'},
+    {path:'Trips', component:TripsComponent},
+    {path:'Bookings', component:BookingsComponent},
+    {path:'**', redirectTo:'Profile',pathMatch:'full'},
+
+]
+},
   {path:'Signup', component:SignupComponent},
   {path:'404', component: NotfoundComponent},
-  {path:'Myaccont', component:MyaccountComponent,
-  children:[
-    {path:'Profile', component:ProfileComponent},
-    {path:'', component:ProfileComponent}
-    
-  ]
-},
-  {path:'**', redirectTo:'/404'},
+  
+  {path:'**', redirectTo:'/404',pathMatch:'full'},
 
 
 

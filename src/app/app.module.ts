@@ -18,6 +18,8 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TripsComponent } from './trips/trips.component';
+import { BookingsComponent } from './bookings/bookings.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { ProfileComponent } from './profile/profile.component';
     SignupComponent,
     NotfoundComponent,
     MyaccountComponent,
-    ProfileComponent
+    ProfileComponent,
+    TripsComponent,
+    BookingsComponent
   ],
   imports: [
     BrowserModule,

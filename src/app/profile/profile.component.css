@@ -3,21 +3,27 @@
     width: 80%;
     background-color: #fff;
     float: left;
+    margin-top: 120px;
+    
 }
+
+
 .picture{
     background-color: #fff;
     height: 420px;
     width: 300px;
     float: left;
+    
 }
 .pic{
-    background-color: blanchedalmond;
+    border-radius: 180px;
 }
 .pic i{
     color: gray;
     margin-top: 120px;
     margin-left: 30px;
     position: absolute;
+    border-radius: 180px;
 }
 .cam i{
     position: relative;
@@ -27,6 +33,7 @@
     cursor: pointer;
 
 }
+
 .cam ul{
     margin-top: 267px;
     position: relative;
@@ -52,16 +59,47 @@
     display: block;
 }
 .details{
-    float: left;
+    float: right;
+    margin-top: 50px;
+    margin-right: 450px;
 }
 .details input[type=text]{
     display: block;
+    width: 250px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
 }
 .details input[type=tel]{
     display: block;
+    width: 250px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
 }
 .details input[type=email]{
     display: block;
+    width: 250px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
+
 
 }
+.details input[type=radio]{
+
+    margin-right: 10px;
+    top: 0;
+}
+
+.details button{
+    margin-top: 80px;
+    cursor: pointer;
+}
+.details span{
+    margin-right: 10px;
+
+
+}
+
 

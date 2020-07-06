@@ -95,6 +95,7 @@ h1 span:nth-child(8){
 	list-style: none;
 	display: inline-block;
 	margin-left: 40px;
+	
 }
 .navsec ul li a{
 	list-style: none;
@@ -110,7 +111,7 @@ h1 span:nth-child(8){
 }
 .navsec button{
 	color: #fff;
-margin-left: 20px;
+margin-left: 110px;
 text-transform: uppercase;
 border: none;
 border-radius: 15px;
@@ -125,4 +126,50 @@ border-radius: 15px;
 	color: rgb(38, 0, 128);
 	
 }
+#profile{
+	color: #fff;
+	cursor: pointer;
+}
+
+.profile{
+	position:relative;
+	height: 80px;
+	display: inline-block;
+	margin-left: 90px;
+    top: 10px;
+
+}
+
+.tooltext{
+    display: none;
+    color: #fff;
+    background-color: darkcyan;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 34px;
+    position: absolute;
+    border-radius: 10px;
+	text-align: center;
+	text-transform: capitalize;
+	transition: transform 1s;
+
+}
+.profile:hover .tooltext{
+	display:block;
+	transition: transform 1s ;
+}
+.tooltext:before{
+	 content:""; 
+	 position:absolute; 
+	 border-left:10px solid darkcyan; 
+	border-right:10px solid transparent; 
+	 border-top:10px solid transparent; 
+	 border-bottom:10px solid transparent; 
+	top:-10px; 
+	left: 0px;
+	transition: transform 1s ;
+
+}
+
+
 
