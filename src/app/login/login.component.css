@@ -10,7 +10,9 @@ margin-left: 400px;
 padding-top: 40px;
 background: url(../../assets/images/login-back.jpg) no-repeat;
 background-size: cover;
+
 border-radius: 20px;
+
 }
 .loginforms form input[type=email]{
 margin:2px 3px;
