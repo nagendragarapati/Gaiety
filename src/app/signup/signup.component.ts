@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, NgForm} from '@angular/forms';
+import * as AOS from 'aos';
+
 
 
 @Component({
@@ -14,6 +16,8 @@ export class SignupComponent implements OnInit {
   constructor(private fb:FormBuilder) { }
 
   ngOnInit(): void {
+    AOS.init();
+
     this.Signupform=this.fb.group({
       UserName:[null, [Validators.required,Validators.minLength(3)]],
 

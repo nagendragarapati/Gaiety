@@ -14,9 +14,7 @@
 	color: maroon;
 	text-align: center;
 }
-.static{
-	top: 0px;
-}
+
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -52,7 +50,7 @@
 
 .places{
 	height:1000px;
-	margin-top: 740px;
+	margin-top: 540px;
 	background-color:#fff;
 }
 
