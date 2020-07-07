@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
+import { RoutegaurdService } from './routegaurd.service';
+
+
 import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
@@ -26,7 +30,7 @@ const routes: Routes = [
   {path:'Services', component:ServicesComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
-  {path:'Myaccount', component:MyaccountComponent,
+  {path:'Myaccount', component:MyaccountComponent, canActivate: [RoutegaurdService],
   children:[
 
     {path:'Profile', component:ProfileComponent},
