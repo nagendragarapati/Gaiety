@@ -2,8 +2,8 @@
     height: 420px;
     background-color: rgba(0,0,0,0.5);
     width: 20%;
-    float: left;
     margin-top: 120px;
+    float: left;
 }
 .sidebar h2{
     text-align: center;
@@ -30,11 +30,11 @@
     margin-right: 20px;
 }
 .list ul li:hover{
-    padding: 10px 3px 3px 10px;
+    padding: 3px 10px 10px 3px;
     transition: ease-in-out 0.5s;
     color: #fff;
     border-bottom: 1px solid #fff;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 }
 .list ul li a:hover{
