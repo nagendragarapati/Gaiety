@@ -122,9 +122,8 @@ border-radius: 15px;
 	border-bottom: 3px solid darkred;
 	transition: all 0.9s;
 }
-.navsec ul li a:active{
-	color: rgb(38, 0, 128);
-	
+.navsec ul li .active{
+	color: darkturquoise;
 }
 #profile{
 	color: #fff;

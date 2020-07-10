@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   
+  activetab = "Home";
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
+  getActiveTab(tabname:string){
+    this.activetab = tabname;
+  }
 }
