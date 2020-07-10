@@ -119,11 +119,13 @@ border-radius: 15px;
 .navsec ul li a:hover{
 	
 	border-spacing: 3px;
-	border-bottom: 3px solid darkred;
+	border-bottom: 3px double darkred;
 	transition: all 0.9s;
 }
 .navsec ul li .active{
 	color: darkturquoise;
+	border-bottom: 2px solid green;
+	transition: ease-in-out 1.5s;
 }
 #profile{
 	color: #fff;

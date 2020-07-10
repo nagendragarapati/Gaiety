@@ -67,7 +67,7 @@
 .country{
 	width:350px;
 	height:280px;
-	background:grey;
+	background-color:rgba(128, 128, 128, 0.651);
 	margin-right:20px;
 	margin-top:40px;
 	position:relative;
@@ -102,8 +102,8 @@
 .detials h3{
 	color:#fff;
 	width: 180px;
-	height: 50px;
 	margin-bottom: 60px;
+	font-size: 20px;
 }
 .detials p{
 	color:#fff;
