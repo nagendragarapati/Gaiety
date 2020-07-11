@@ -2,6 +2,8 @@
     background: url(../../assets/images/contact.jpg) no-repeat;
     background-size: cover;
     height: 540px;
+    background-attachment: fixed;
+
 }
 .static{
     padding-top: 200px;

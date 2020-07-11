@@ -3,6 +3,8 @@
 	background: url(../../assets/images/green.jpg) no-repeat;
 	background-size:cover;
 	position: absolute;
+	background-attachment: fixed;
+	
 }
 .away{
 	margin-top: 150px;

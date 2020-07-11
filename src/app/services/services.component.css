@@ -2,6 +2,8 @@
     background: url(../../assets/images/why.jpg) no-repeat;
     background-size: cover;
     height: 540px;
+    background-attachment: fixed;
+
 }
 .rigid{
     padding-top: 200px;

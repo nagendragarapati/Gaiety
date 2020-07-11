@@ -2,6 +2,7 @@
     background: url(../../assets/images/about.jpg) no-repeat;
     background-size: cover;
     height: 540px;
+    background-attachment: fixed;
 }
 .fixed{
     padding-top: 200px;

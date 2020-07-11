@@ -2,6 +2,7 @@
 	height:590px;
 	background:url(../../assets/images/footer_1.jpg) no-repeat;
 	background-size:cover;
+	background-attachment: fixed;
 }
 .subscribe h1{
 	color: #fff;

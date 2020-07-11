@@ -1,20 +1,21 @@
-<div class="loginforms" data-aos="fade-up"
-data-aos-duration="2000">
+<div class="loginforms" data-aos="fade-up" data-aos-duration="2000">
     <form [formGroup]="Loginform" (ngSubmit)="Login(Loginform.value)" class="form-group">
-    <h2>login</h2>
-    <input type="email" name="" value="" placeholder="Email" formControlName="email" name="email"
-     class="form-control" [class.is-invalid]="Loginform.get('email').invalid && Loginform.get('email').touched ">
-     <small [class.d-none]="Loginform.get('email').valid || Loginform.get('email').untouched " class="text-danger">Email is requied</small>
+        <h2>login</h2>
+        <input type="email" name="" value="" placeholder="Email" formControlName="email" name="email"
+            class="form-control" [class.is-invalid]="Loginform.get('email').invalid && Loginform.get('email').touched ">
+        <small [class.d-none]="Loginform.get('email').valid || Loginform.get('email').untouched "
+            class="text-danger">Email is requied</small>
 
 
-    <input type="password" name="" value="" placeholder="password" formControlName="password" name="password" 
-    class="form-control" [class.is-invalid]="Loginform.get('password').invalid && Loginform.get('password').touched ">
-    <small [class.d-none]="Loginform.get('password').valid || Loginform.get('password').untouched" class="text-danger">Password must have 6 digits</small>
+        <input type="password" name="" value="" placeholder="password" formControlName="password" name="password"
+            class="form-control"
+            [class.is-invalid]="Loginform.get('password').invalid && Loginform.get('password').touched ">
+        <small [class.d-none]="Loginform.get('password').valid || Loginform.get('password').untouched"
+            class="text-danger">Password must have 6 digits</small>
 
 
-    <p>dont you have account yet?<a routerLink="/Signup">Signup</a></p>
+        <p>dont you have account yet?<a routerLink="/Signup">Signup</a></p>
 
-    <button [disabled]="!Loginform.valid" class="btn btn-success">login</button>
+        <button [disabled]="!Loginform.valid" class="btn btn-success">login</button>
     </form>
-    </div>
-    
+</div>
