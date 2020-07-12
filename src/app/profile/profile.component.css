@@ -3,7 +3,14 @@
     width: 80%;
     background-color: #fff;
     margin-top: 120px;
+ 
     
+}
+.whole{
+    height: 540px;
+    background-color:grey;
+
+
 }
 
 
@@ -12,6 +19,7 @@
     height: 420px;
     width: 300px;
     float: left;
+
     
 }
 .pic{

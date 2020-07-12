@@ -1,4 +1,4 @@
-<div class="container-fluid header">
+<div class="container-fluid header nav-solid" [class.head_change]="head_variable">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 logo">
@@ -17,13 +17,13 @@
 
 				<ul>
 					<li><a routerLink='/Home' (click)="getActiveTab('Home')"
-							[class.active]="activetab === 'Home'">Home</a></li>
+							[class.active]="activetab === 'Home'" class="nav-link">Home</a></li>
 					<li><a routerLink='/Aboutus' (click)="getActiveTab('Aboutus')"
-							[class.active]="activetab === 'Aboutus'">About us</a></li>
+							[class.active]="activetab === 'Aboutus'" class="nav-link">About us</a></li>
 					<li><a routerLink='/Services' (click)="getActiveTab('Services')"
-							[class.active]="activetab === 'Services'">Services</a></li>
+							[class.active]="activetab === 'Services'" class="nav-link">Services</a></li>
 					<li><a routerLink='/Contact' (click)="getActiveTab('Contact')"
-							[class.active]="activetab === 'Contact'">Contact</a></li>
+							[class.active]="activetab === 'Contact'" class="nav-link">Contact</a></li>
 					<button routerLink='/Login' class="btn btn-primary">login<i
 							class="material-icons">person_add</i></button>
 					<div class="profile">

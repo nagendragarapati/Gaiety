@@ -1,9 +1,9 @@
 .sidebar{
-    height: 420px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: gray;
     width: 20%;
     margin-top: 120px;
     float: left;
+    height: 420px;
 }
 .sidebar h2{
     text-align: center;

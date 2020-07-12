@@ -30,7 +30,7 @@ const routes: Routes = [
   {path:'Services', component:ServicesComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
-  {path:'Myaccount', component:MyaccountComponent, canActivate: [RoutegaurdService],
+  {path:'Myaccount', component:MyaccountComponent,
   children:[
 
     {path:'Profile', component:ProfileComponent},

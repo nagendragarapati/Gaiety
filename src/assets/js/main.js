@@ -1,11 +1,16 @@
+var string="Nagendra & Sai Krishna.....";
+var strArray=string.split();
 
+function animate(){
+	if(strArray.length > 0){
+		document.getElementById("animation").innerHTML += strArray.shift();
+	}
+	else{
+document.getElementById("animation").innerHTML="";
+	 strArray=string.split("");
+		}
+		setTimeout(animate,150);
 
-
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("header").style.backgroundColor= "none";
-  } else {
-    document.getElementById("header").style.backgroundColor= "black";
-  }
 }
+
+

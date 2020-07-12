@@ -39,12 +39,13 @@ import { BookingsComponent } from './bookings/bookings.component';
     MyaccountComponent,
     ProfileComponent,
     TripsComponent,
-    BookingsComponent
+    BookingsComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

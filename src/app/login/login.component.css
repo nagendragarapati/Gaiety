@@ -1,6 +1,8 @@
 .loginforms{
     height: 550px;
     padding-top: 150px;
+    background-color: teal;
+    width: 100%;
 
 }
 .loginforms form{

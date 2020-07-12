@@ -7,15 +7,19 @@
 	
 }
 .away{
-	margin-top: 150px;
+	margin-top: 250px;
+	text-align: center;
+
 }
 .away h1{
 	
 	font-size: 60px;
 	text-transform: none;
 	color: #fff;
-	text-align: center;
 }
+.test {
+	background-color: yellow;
+  }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
