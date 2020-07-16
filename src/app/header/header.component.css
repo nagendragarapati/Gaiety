@@ -1,6 +1,10 @@
+img {
+	max-width: 100%;
+	height: auto;
+  }
+
 .header
 {
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -10,12 +14,14 @@
 	z-index: 1000;
 	transition: height 1s ease;
 	border-bottom: 2px solid rgba(255,255,255,.05);
+	position: fixed;
 
 
 
 }
 .head_change{
 	background-color: rgb(2, 77, 77,0.4);
+	background-color: black;
 	position: fixed;
 	box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 	height: 90px;
@@ -48,6 +54,7 @@ h1 span{
 h1 span:nth-child(1){
 	animation-delay:1s;
 	color: darkorange;
+	color: darkgreen;
 }
 h1 span:nth-child(2){
 	animation-delay:2s;

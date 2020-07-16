@@ -25,12 +25,13 @@
 .pic{
     border-radius: 180px;
 }
-.pic i{
-    color: gray;
+.pic img{
     margin-top: 120px;
     margin-left: 30px;
     position: absolute;
     border-radius: 180px;
+    height: 200px;
+    width: 200px;
 }
 .cam i{
     position: relative;
@@ -45,7 +46,6 @@
     margin-top: 267px;
     position: relative;
     margin-left: 90px;
-    display: none;
 }
 .cam ul li{
     list-style: none;

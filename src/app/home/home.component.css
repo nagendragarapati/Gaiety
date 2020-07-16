@@ -73,17 +73,21 @@
 .country{
 	width:350px;
 	height:280px;
-	background-color:rgba(128, 128, 128, 0.651);
-	margin-right:20px;
 	margin-top:40px;
 	position:relative;
 	margin-left: 40px;
-	border-radius: 10px;
+	border: 1px solid lightgrey;
+	margin-left: 70px;
+	}
+	.country:hover{
+		border: 1px groove green;
 	}
 	
 .country .imgbox{
 	position:relative;
-	overflow:hidden;
+	overflow: hidden;
+	height:280px;
+
 	}
 
 .country .imgbox img{
@@ -93,6 +97,7 @@
 }
 .country:hover .imgbox img{
 	transform:scale(1.3);
+
 }
 .detials{
 
@@ -125,10 +130,11 @@
 
 .country:hover .content{
 	transform: scale(1);
+	
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/
 .newspost{
-	height: 750px;
+	height: 1750px;
 }
 
 

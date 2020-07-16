@@ -1,5 +1,5 @@
 .service{
-    background: url(../../assets/images/why.jpg) no-repeat;
+    background: url(../../assets/images/banner1.jpg) no-repeat;
     background-size: cover;
     height: 540px;
     background-attachment: fixed;
@@ -10,7 +10,7 @@
 }
 
 .why{
-height: 580px;
+height: 680px;
 }
 .choose{
     height: 150px;
@@ -39,7 +39,8 @@ height: 580px;
     text-transform: capitalize;
 }
 .fast p{
-    text-align: center;
+    width: 320px;
+    font-size: 13px;
 }
 
 

@@ -7,10 +7,16 @@ import * as AOS from 'aos';
 })
 export class ProfileComponent implements OnInit {
 
+  isDisplay=false;
+  toggleDisplay(){
+    this.isDisplay=!this.isDisplay;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
     AOS.init();
+
 
   }
 

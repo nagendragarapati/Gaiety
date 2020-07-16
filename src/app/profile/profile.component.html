@@ -3,11 +3,10 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 profile">
             <div class="picture">
-                <div class="pic" data-aos="fade-up" data-aos-duration="1500"><i class='fas fa-user-circle'
-                        style='font-size:200px'></i></div>
-                <div class="cam" data-aos="fade-up" data-aos-duration="1500"><i class="fa fa-camera"></i>
+                <div class="pic" data-aos="fade-up" data-aos-duration="1500"><img src="../../assets/images/avatar.svg"></div>
+                <div class="cam" data-aos="fade-up" data-aos-duration="1500"><i class="fa fa-camera" (click)="toggleDisplay()" ></i>
 
-                    <ul>
+                    <ul *ngIf="isDisplay">
                         <li><a href="#">update profile picture</a></li>
                         <li><a href="#">remove profile picture</a></li>
 

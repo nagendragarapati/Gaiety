@@ -13,4 +13,3 @@ document.getElementById("animation").innerHTML="";
 
 }
 
-
