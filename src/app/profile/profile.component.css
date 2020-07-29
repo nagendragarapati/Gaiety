@@ -1,26 +1,9 @@
-.profile{
-    height: 420px;
-    width: 80%;
-    background-color: #fff;
-    margin-top: 120px;
- 
-    
-}
-.whole{
-    height: 540px;
-    background-color:grey;
 
-
-}
 
 
 .picture{
     background-color: #fff;
-    height: 420px;
-    width: 300px;
-    float: left;
-
-    
+    margin-top: 120px;    
 }
 .pic{
     border-radius: 180px;
@@ -66,9 +49,10 @@
     display: block;
 }
 .details{
-    float: right;
-    margin-top: 50px;
-    margin-right: 450px;
+    margin-top: 120px;
+    background-color: #fff;
+
+    padding-bottom: 88px;
 }
 .details input[type=text]{
     display: block;

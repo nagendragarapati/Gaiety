@@ -20,6 +20,9 @@ import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TripsComponent } from './trips/trips.component';
 import { BookingsComponent } from './bookings/bookings.component';
+import { BooknowComponent } from './booknow/booknow.component';
+import { Package1Component } from './booknow/package1/package1.component';
+import { FormComponent } from './booknow/form/form.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,9 @@ import { BookingsComponent } from './bookings/bookings.component';
     ProfileComponent,
     TripsComponent,
     BookingsComponent,
+    BooknowComponent,
+    Package1Component,
+    FormComponent,
     
   ],
   imports: [

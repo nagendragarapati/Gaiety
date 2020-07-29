@@ -124,12 +124,12 @@
 	
 	position: absolute;
 	top: 60px;
-	transform: scale(0);
+	transform: scaleX(0);
 	transition: transform 1.75s;
 }
 
 .country:hover .content{
-	transform: scale(1);
+	transform: scaleX(1);
 	
 }
 /*------------------------------------------------------------------------------------------------------------------------------*/

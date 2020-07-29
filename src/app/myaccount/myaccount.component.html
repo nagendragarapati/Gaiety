@@ -1,5 +1,7 @@
-<div class="containerfluid">
-    <div class=" sidebar">
+<div class="container-fluid whole">
+<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 sidebar">
         <h2 data-aos="fade-up" data-aos-duration="1500">my account</h2>
         <div class="list">
             <ul>
@@ -14,7 +16,12 @@
 
             </ul>
         </div>
-
     </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 nagg">
+        <router-outlet></router-outlet>
+    </div>
+
 </div>
-<router-outlet></router-outlet>
+</div>
+

@@ -15,6 +15,9 @@ import { MyaccountComponent } from './myaccount/myaccount.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TripsComponent } from './trips/trips.component';
 import { BookingsComponent } from './bookings/bookings.component';
+import { BooknowComponent } from './booknow/booknow.component';
+import { FormComponent } from './booknow/form/form.component';
+import { Package1Component } from './booknow/package1/package1.component';
 
 
 
@@ -30,7 +33,7 @@ const routes: Routes = [
   {path:'Services', component:ServicesComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
-  {path:'Myaccount', component:MyaccountComponent, canActivate:[RoutegaurdService],
+  {path:'Myaccount', component:MyaccountComponent, 
   children:[
 
     {path:'Profile', component:ProfileComponent},
@@ -40,6 +43,15 @@ const routes: Routes = [
     {path:'**', redirectTo:'Profile',pathMatch:'full'},
 
 ]
+},
+  {path:'Booknow', component:BooknowComponent,
+  children:[
+    {path:'Form', component:FormComponent},
+    {path:"", redirectTo:'Form' , pathMatch:'full'},
+    {path:'Package1', component:Package1Component}
+
+  ]
+
 },
   {path:'Signup', component:SignupComponent},
   {path:'404', component: NotfoundComponent},
