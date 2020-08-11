@@ -18,11 +18,10 @@ import { BookingsComponent } from './bookings/bookings.component';
 import { BooknowComponent } from './booknow/booknow.component';
 import { FormComponent } from './booknow/form/form.component';
 import { Package1Component } from './booknow/package1/package1.component';
-
-
-
-
-
+import { Package2Component } from './booknow/package2/package2.component';
+import { Package3Component } from './booknow/package3/package3.component';
+import { Package4Component } from './booknow/package4/package4.component';
+import { Package5Component } from './booknow/package5/package5.component';
 
 
 
@@ -33,7 +32,7 @@ const routes: Routes = [
   {path:'Services', component:ServicesComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
-  {path:'Myaccount', component:MyaccountComponent, 
+  {path:'Myaccount', component:MyaccountComponent, canActivate:[RoutegaurdService], 
   children:[
 
     {path:'Profile', component:ProfileComponent},
@@ -48,18 +47,16 @@ const routes: Routes = [
   children:[
     {path:'Form', component:FormComponent},
     {path:"", redirectTo:'Form' , pathMatch:'full'},
-    {path:'Package1', component:Package1Component}
-
-  ]
-
+    {path:'Package1', component:Package1Component},
+    {path:'Package2', component:Package2Component},
+    {path:'Package3', component:Package3Component},
+    {path:'Package4', component:Package4Component},
+    {path:'Package5', component:Package5Component},
+]
 },
   {path:'Signup', component:SignupComponent},
   {path:'404', component: NotfoundComponent},
-  
   {path:'**', redirectTo:'/404',pathMatch:'full'},
-
-
-
 ];
 
 @NgModule({

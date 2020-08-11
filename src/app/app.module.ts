@@ -23,6 +23,10 @@ import { BookingsComponent } from './bookings/bookings.component';
 import { BooknowComponent } from './booknow/booknow.component';
 import { Package1Component } from './booknow/package1/package1.component';
 import { FormComponent } from './booknow/form/form.component';
+import { Package2Component } from './booknow/package2/package2.component';
+import { Package3Component } from './booknow/package3/package3.component';
+import { Package4Component } from './booknow/package4/package4.component';
+import { Package5Component } from './booknow/package5/package5.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { FormComponent } from './booknow/form/form.component';
     BooknowComponent,
     Package1Component,
     FormComponent,
+    Package2Component,
+    Package3Component,
+    Package4Component,
+    Package5Component,
     
   ],
   imports: [

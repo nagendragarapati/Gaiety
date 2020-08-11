@@ -59,7 +59,9 @@
 	margin-top: 540px;
 	background-color:#fff;
 }
-
+.det{
+	display: none;
+}
 .mid p{
 	text-align: center;
 }

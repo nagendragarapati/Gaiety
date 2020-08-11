@@ -1,8 +1,8 @@
-.one{
+.four{
     margin-top: 120px;
     height: 100%;
 }
-.one h1{
+.four h1{
     color: green;
     font-size: 20px;
     border: none;
@@ -11,14 +11,14 @@
     background-color: thistle;
     text-align: center;
 }
-.one img{
+.four img{
     width: 75%;
     height: 400px;
     position: absolute;
     margin-left: 100px;
 
 }
-.one h6{
+.four h6{
     position: relative;
     width: 77%;
     background-color: rgba(0,0,0,.5);
@@ -29,53 +29,48 @@
     margin-left: 100px;
     padding: 10px 0px 10px 0px;
 }
-.price{
+.price4{
     width: 100%;
     border-bottom: 1px solid;
 
 }
-.price h3{
+.price4 h3{
     font-size: 20px;
     color: white;
     margin-left: 100px;
 
 }
 
-.price h4{
+.price4 h4{
     font-size: 25px;
     color: white;
     margin-left: 100px;
     font-weight: 200;
 
 }
-.price h5{
+.price4 h5{
     font-size: 16px;
     color: white;
     margin-left: 100px;
     font-weight: 100;
 
 }
-.schedule{
+.schedule4{
     margin-top: 20px;
 
 }
-.schedule h5{
-    margin-left: 100px;
-    line-height: 25px;
-    color: cornsilk;
 
-}
-.schedule h2{
+.schedule4 h2{
     margin-left: 100px;
     font-weight: 500;
     font-size: 25px;
 }
-.schedule p{
+.schedule4 p{
     margin-left: 100px;
     line-height: 30px;
     text-transform: capitalize;
 }
-.schedule button{
+.schedule4 button{
     margin-left: 40%;
     margin-bottom: 20px;
 }

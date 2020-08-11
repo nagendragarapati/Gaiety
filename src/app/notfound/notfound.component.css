@@ -2,13 +2,15 @@
     margin-left: 40%;
     font-size: 100px;
     margin-top: 150px;
+    color: white;
 }
 .notfound p{
     color: red;
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: 50px;
     text-transform: capitalize;
 }
 .notfound{
     height: 400px;
+    background-color: black;
 }
